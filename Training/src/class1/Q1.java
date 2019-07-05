@@ -20,6 +20,7 @@ public class Q1 {
         return -1;
     }
     
+    //main method
     public static void main(String[] args) {
         int[] arr = new int[]{1,2,3,5,6,8};
         Q1 q1 = new Q1();
