@@ -2,6 +2,7 @@ package class1;
 
 public class Q1 {
     
+    //binary search method
     public int binarySearch(int[] arr, int target){
         if(arr==null||arr.length==0) return -1;
         int left = 0;
