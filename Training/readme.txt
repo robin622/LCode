@@ -24,3 +24,12 @@ http://www.algolist.net/Data_structures/Binary_heap/Insertion
 
 Build a heap (time complexity)
 https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/
+
+Reading materials 
+==================================================================
+System Design article
+https://github.com/checkcheckzz/system-design-interview
+
+CSAPP 
+1, progress (page 37)
+2, source code (http://csapp.cs.cmu.edu/3e/code.html)
