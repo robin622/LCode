@@ -27,7 +27,8 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
 Round 2 
 2.1 BST delete a node with key=x
 2.2 Give two sorted arrays a[] and b[]. Say each entry is sum of a[i]+b[j]. Find the first K sums in ascending order
-2.3 LRU cache
+2.3 LRU cache (why not design another way ? why not a binary heap + hashmap)
+
 
 Round 3 
 3.1 Java questions: what is final, finally, finalize ?
@@ -71,14 +72,17 @@ Geometry
 
 Good or not?
 1, time complexity and space complexity 
-2, O(n) = worst case (asymptotic upper bound), amortized time
+2, O(n) = worst case (asymptotic upper bound), amortized time (if you system can 
+handle the worst case, it is a stable system)
 Theta(n) = tight bound (asymptotic bound from above and below)
 Omega(n) = best case (asymptotic lower bound)
 
 Space complexity: is the extra space or temporary space used by an algorithm
 
 Binary Search
-Common assumption: Array has to be sorted ascending or descending. (is this necessary?)
+Search space is reduced to half, not array space. 
+
+Common assumption: Array has to be sorted ascending or descending. (is this necessary? XXX)
 
 Principle of Binary Search
 1, We must guarantee that the search space decreases over time(after each iteration).

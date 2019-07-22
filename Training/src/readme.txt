@@ -1,3 +1,9 @@
+1, communication skills ****
+2, transformation questions 
+
+题不在多,而在深入 !!!
+最高的标准要求自己 !!!
+
 https://google.github.io/styleguide/javaguide.html
 
 terminology
@@ -5,9 +11,8 @@ member variable = field
 local variable
 parameters
 method 
- 
- 
- Escape character -- 转义字符
+
+Escape character -- 转义字符
  
  Java type chart
  1, boolean <=1 byte
@@ -19,7 +24,10 @@ method
  7, float = 4 byte
  8, double = 8 byte
  
- 
+ How to debug Binary Search ?
+ 1, use one element to check if loop can get in
+ 2, use two elements to check if the loops can end
+  
  
  https://docs.oracle.com/javase/tutorial/
  1, Block indentation = 2 spaces
