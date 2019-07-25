@@ -24,9 +24,19 @@ Escape character -- 转义字符
  7, float = 4 byte
  8, double = 8 byte
  
- How to debug Binary Search ?
- 1, use one element to check if loop can get in
- 2, use two elements to check if the loops can end
+How to crack question ?
+1, Clarification
+2, Examples
+3, Solution
+   a, Assumptions
+   b, Input/Output(signature)
+   c, Corner cases
+   d, Algorithm
+   e, Time/Space complexity
+4, Coding
+5, Test
+   a, Test corner cases: empty, 0, 1, 2 elements
+   b, Test general cases
   
  
  https://docs.oracle.com/javase/tutorial/

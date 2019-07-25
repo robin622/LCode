@@ -1,0 +1,132 @@
+Class one
+
+Yahoo Question
+Round 1
+1.1 What is working behind when you enter "yahoo.com" in browser ?
+(1) Browser will check the cache to see if there is a correspondent IP. (it can check browser cache
+operating system cache, router cache and ISP cache). 
+(1.1) if IP can not be found, ISP' DNS server initiates a DNS query to find the IP address of server
+that hosts "yahoo.com". 
+(2) With the IP, browser initiates a TCP connection with the server. (this connection is established using
+a process called the TCP/IP three-way handshake: client sends a SYN, server responses SYN/ACK, client
+responses ACK. )
+(3) Then, browser sends an HTTP request (POST/GET) to the web server.  
+(4) The server handles the request and send back a response. 
+(5) The browser displays the content. 
+
+https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+
+1.2 When database query is slow, what do you think has problem ?
+
+
+1.3 2-Sum(follow up: 1TB vs 32 GB memory with a laptop)
+
+1.4 OO design a coffee machine. 
+
+Round 2 
+2.1 BST delete a node with key=x
+2.2 Give two sorted arrays a[] and b[]. Say each entry is sum of a[i]+b[j]. Find the first K sums in ascending order
+2.3 LRU cache (why not design another way ? why not a binary heap + hashmap)
+
+
+Round 3 
+3.1 Java questions: what is final, finally, finalize ?
+3.2 What is stingbuffer, stringbuilder ?
+3.3 How is java's hashmap implemented ?
+3.4 What is linkedHashMap ? (insertion order or access order) LRU (least recent used)
+
+3.5 Find first non duplicate character in a string, do it in one pass. 
+
+Round 4 
+4.1 What is ploymorphism with example (function overload vs override) ?
+4.2 Binary search in two sorted arrays to find a target (Follow up, what if k arrays)
+4.3 OO design a file system
+
+
+1, Array
+2, Stack
+3, Queue
+4, LinkedList
+
+1 to 4 is liner data structure
+
+5, Tree
+6, Heap
+7, Graph
+8, Hash table
+
+knowledges
+
+Binary Search
+Partition
+Sorting Algorithm
+SubSet
+Deduplication
+Longest subarray/sequence
+Common Sequeuce
+Sliding Window
+Re-ordering
+Compression
+Geometry
+
+Good or not?
+1, time complexity and space complexity 
+2, O(n) = worst case (asymptotic upper bound), amortized time (if you system can 
+handle the worst case, it is a stable system)
+Theta(n) = tight bound (asymptotic bound from above and below)
+Omega(n) = best case (asymptotic lower bound)
+
+Space complexity: is the extra space or temporary space used by an algorithm
+
+Binary Search
+Search space is reduced to half, not array space. 
+
+Common assumption: Array has to be sorted ascending or descending. (is this necessary? XXX)
+
+Principle of Binary Search
+1, We must guarantee that the search space decreases over time(after each iteration).
+2, We must guarantee that the target (if exists) can not be ruled out accidently, when we change
+the value of Left or Right. (It is critical to define the rule about how to move the range of search)
+
+ How to debug Binary Search ?
+ 1, use one element to check if loop can get in
+ 2, use two elements to check if the loops can end
+ 
+ 
+Q1 -- classic BST
+Q2 -- 2D BST
+Q3 -- closest target
+Q4 -- first target
+Q5 -- last target
+
+Q1 - Q5 easy
+
+Mediate:
+Q6 -- getCloestKTarget
+Q7 -- smallest element that is larger than Target
+
+Hard:
+Q8 -- K-th Smallest in Two Sorted Array
+Q9 -- K-th Cloest Element
+Q10 -- Binary Search with Unknown Size
+Q11 -- 
+Q12 -- 
+
+BinarySearch 搜索空间折半查找!!!
+
+My summary
+1, search space decreases each round (focus on impossible half)
+2, target should not be ruled out
+3, one element to test if code can get into while loop
+4, two elements to make sure no dead loop in the while. (because (0+1)/2 = 0, mid can only equal to left)
+5, in what case, I should use (left < right -1), and in what case, I should use (left < right)  and left <= right ????
+(L 1) first one returns 2 elements, second returns 1 element, last one can fit for only one element. 
+(L 2) if in code, it has "left = mid", you have to keep 2 elements to avoid loop. (search space needs to reduce each time)
+
+Difference between >> and >>>
+>> arithmetic shift right
+>>> logical shift right : without considering the positive or negative sign
+
+
+

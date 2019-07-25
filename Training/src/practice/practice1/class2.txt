@@ -1,0 +1,27 @@
+
+Object-oriented 
+field : state
+method: behavior
+
+reference : address
+dereference 
+
+declaration
+instantiation
+constructor
+
+Stack LIFO
+call stack is a stack data structure stores information about the active subroutines of a computer program. 
+
+where are primitive types saved ?
+*** it can be saved to both stack and heap. *** 
+*** reference can also be saved in both stack and heap. ***
+
+where to save depends on the role it plays
+if it is a state in class, it is saved in Heap. 
+if it is a local variable in method, it is saved in stack. 
+
+Default value: zero, false, null
+
+Only field has default value. Local value does not have default values. 
+
