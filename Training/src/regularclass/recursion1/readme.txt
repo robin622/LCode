@@ -42,6 +42,12 @@ how to discuss the code with interviewer ?
 6, Only provide your best answer to each part of the questions. 
 
  
+Recursion
+
+1, identify subproblems.
+ 
+2, by using the same logic, resolve subproblems first and then, 
+do something in the current layer to resolve bigger problem.
 
 
 
