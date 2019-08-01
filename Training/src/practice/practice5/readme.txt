@@ -42,7 +42,43 @@ offer = offerLast, poll = pollFirst, peek = peekFirst
 
 
 ArrayList
+when removed, the size will not shrink because stable status will be kept. 
+
+Time Complexity Analysis
+LinkedList in java implementation (doubly linkedList, head and tail are kept)
+
+Operation   /   ArrayList / LinkedList
+
+(get at head/tail)  /  O(1)  /  O(1) 
+get in middle  /  O(1)  /  O(n)
+set at head/tail  / O(1)  /  O(1) 
+set in middle  /  O(1)  / O(n)
+add in middle  /  O(n)  /  O(n)
+add at head  /  O(n)  /  O(1)
+add at tail  /  O(1)(expand:O(n))  /  O(1)
+remove at head  /  O(n)  /  O(1)
+remove at tail  /  O(1)  / O(1)
+remove at middle  /  O(n)  /  O(n)
+size()  /  O(1)  /  O(1)
+isEmpyt()  /  O(1)  /  O(1)
 
 
- 
+why amortized time ?
+it captures the real time consumed in practical environment. 
+
+when time complexity is similar between arraylist and linkedlist, use arraylist, the reason is: 
+1, linkedlist consume more spaces
+2, arraylist has better spatial locality
+
+LinkedList is good for head/tail remove and add. (deque)
+
+Stack and Vector are deprecated !!!
+
+Dummy Head (when to use it ?)
+1, the head could be changed when solving the problem
+2, not sure yet which node will be head when constructing the list
+
+
+
+
 
