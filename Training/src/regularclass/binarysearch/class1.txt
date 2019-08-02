@@ -110,8 +110,6 @@ Hard:
 Q8 -- K-th Smallest in Two Sorted Array
 Q9 -- K-th Cloest Element
 Q10 -- Binary Search with Unknown Size
-Q11 -- 
-Q12 -- 
 
 BinarySearch 搜索空间折半查找!!!
 
@@ -127,6 +125,8 @@ My summary
 Difference between >> and >>>
 >> arithmetic shift right
 >>> logical shift right : without considering the positive or negative sign
+
+反证法 (prove by contradiction)
 
 
 

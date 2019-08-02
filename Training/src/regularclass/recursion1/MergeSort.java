@@ -46,6 +46,7 @@ public class MergeSort {
     }
     
     private void mergeSort(int[] array, int[] helper, int left, int right){
+        System.out.println("left is: " + left + ", right is: " + right);
         if(left>=right) return;
         int mid = left+(right-left)/2;
         mergeSort(array, helper, left, mid);
@@ -54,6 +55,7 @@ public class MergeSort {
     }
     
     private void merge(int[] array, int[] helper, int left, int mid, int right){
+        System.out.println("merge, left is: " + left + ", right is: " + right);
         for(int i=left; i<=right;i++){
             helper[i]=array[i];
         }

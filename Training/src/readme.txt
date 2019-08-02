@@ -6,6 +6,44 @@
 
 https://google.github.io/styleguide/javaguide.html
 
+How to answer a question ?
+1, Clarification
+   a. sorted ? ascending/descending
+   (if input is an array, think about if the array is sorted, ascending or descending, and duplicate elements)
+   (if input is an matrix, think about matrix is null, matrix.length = 0, matrix[0].lenght = 0)
+2, Examples
+
+3, Solution
+   a. Assumptions
+   b. Input/output(signature)
+   c. Corner cases
+   d. Algorithm
+   e. Time/Space complexity
+   
+4, Coding
+
+5, Test
+   a. Test corner cases: empty, 0, 1, 2 elements
+   b. Test general cases
+
+Speak out loud about your thinking process. Be careful about the communication practices. 
+
+面试关键： 
+要说出思维方式 ！！！
+
+做题关键
+知其然，知其所以然
+
+讲Code要点：
+1, Document your assumptions
+2, Explain your approach and how you intent to solve the problem (high - intermediate - details)
+3, Provide code comments where applicable
+4, Explain the big-O run time complexity of your solution. Justify your answer. 
+5, Identify any additional data structures you used and justify why you used them. 
+6, Only provide your best answer to each part of the question. 
+
+******* communication ********
+
 terminology
 member variable = field
 local variable
