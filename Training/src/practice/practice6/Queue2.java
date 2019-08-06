@@ -1,37 +1,52 @@
 package practice.practice6;
 
-//using array
-//public class Queue2 {
-//    private int[] arr;
-//    private int size;
-//    private int head;
-//    private int tail;
+//using array (circular array)
+public class Queue2 {  
+    private static int[] arr;
+    private int size;
+    private static int head;
+    private static int tail;
     
 //    public Queue2(int cap) {
 //        arr = new int[cap];
 //        size = 0;
-//        head = -1;
-//        tail = -1;
+//        head = 0;
+//        tail = 0;
 //    }
 //    
-//    public void offer(int value) {
-//
+//    public boolean offer(int value) {
+//        if(size == arr.length) {
+//            return false;
+//        }
+//        arr[tail] = value;
+//        tail = (tail+1 == arr.length ? 0 : tail + 1);
+//        size++;
+//        return true;
 //    }
 //    
 //    public Integer poll() {
-//        
+//        if(size == 0) {
+//            return null;
+//        }
+//        Integer result = arr[head];
+//        head = (head + 1 == arr.length ? 0 : head + 1);
+//        size--;
+//        return result;
 //    }
 //    
 //    public Integer peek() {
-//
+//        if(size == 0) {
+//            return null;
+//        }
+//        return arr[head];
 //    }
 //    
 //    public boolean isEmpty() {
-//
+//        return size == 0;
 //    }
 //    
 //    public int size() {
-//
+//        return size;
 //    }
 public class Queue2 {
     
@@ -83,10 +98,68 @@ public class Queue2 {
         return size;
     }
     
+    public Queue2(int cap) {
+        arr = new int[cap+1];
+        head = 0;
+        tail = 1;
+    }
+    
+    public boolean offer(int value) {
+        if(head == tail) {
+            //full
+            return false;
+        }
+        arr[tail] = value;
+        tail = ((tail+1) % arr.length);
+        return true;
+    }
+    
+    public Integer poll() {
+        if(head == tail-1) {
+            return null;
+        }
+        Integer result = arr[head+1];
+        head = ((head + 1) % arr.length);
+        return result;
+    }
+    
+    public Integer peek() {
+        if(head == tail-1) {
+            return null;
+        }
+        return arr[head];
+    }
+    
+    public boolean isEmpty() {
+        return size == 0;
+    }
+    
+    public int size() {
+        return size;
+    }
+    
     public static void main(String[] args) {
-        String[] expectedArr = "41C,41D,25A25A,".split(",");
-        for(String s: expectedArr) {
-            System.out.println("|" + s + "|");
+        Queue2 q2 = new Queue2(4);
+        q2.offer(3);
+        q2.offer(4);
+        q2.offer(5);
+        q2.offer(1);
+        q2.poll();
+        q2.offer(7);
+        //for(int m : arr) {
+        //    System.out.println(m);
+        //}
+        if(tail > head) {
+            for(int i = head; i <= tail; i++) {
+                System.out.println(arr[i]);
+            }
+        } else {
+            for(int i = head+1; i < arr.length; i++) {
+                System.out.println(arr[i]);
+            }
+            for(int i = 0; i < tail; i++) {
+                System.out.println(arr[i]);
+            }
         }
         
     }
