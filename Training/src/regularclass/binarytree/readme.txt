@@ -18,3 +18,4 @@ the values in its right subtree are all larger than its value. (no duplicate ele
 if there is some duplicates, add counter field in each node!!!
 
 Trick: 所有前面的node的个数总和都没有最后一层node的个数多,因此我们分析tree的time complexity的时候往往只看最后一层node的个数!!!
+

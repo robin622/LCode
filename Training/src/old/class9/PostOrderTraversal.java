@@ -8,6 +8,10 @@ import old.class9.BSTImplementation.TreeNode;
 public class PostOrderTraversal {
     
     public void postOrder(TreeNode root) {
+        
+    }
+    
+    /*public void postOrder(TreeNode root) {
         if(root == null) {
             return;
         }
@@ -38,7 +42,7 @@ public class PostOrderTraversal {
             }
             prev = current;
         }
-    }
+    } */
     
     class TreeNode {
         int value;

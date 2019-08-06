@@ -101,5 +101,9 @@ How to crack question ?
  So, sum up, 
  n/2 * 1 + n/4 *2 + n/8 * 3 + n/16 * 4 + ... + 1 * logn = O(n)
 
+Lesson 13 is important
+1, BST deletion 
+2, iteration implementation of PreOrderTraversal/InOrderTraversal/PostOrderTraversal
+
 
  
