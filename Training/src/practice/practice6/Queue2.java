@@ -1,60 +1,12 @@
 package practice.practice6;
 
-//using array (circular array)
-public class Queue2 {  
-    private static int[] arr;
-    private int size;
-    private static int head;
-    private static int tail;
-    
-//    public Queue2(int cap) {
-//        arr = new int[cap];
-//        size = 0;
-//        head = 0;
-//        tail = 0;
-//    }
-//    
-//    public boolean offer(int value) {
-//        if(size == arr.length) {
-//            return false;
-//        }
-//        arr[tail] = value;
-//        tail = (tail+1 == arr.length ? 0 : tail + 1);
-//        size++;
-//        return true;
-//    }
-//    
-//    public Integer poll() {
-//        if(size == 0) {
-//            return null;
-//        }
-//        Integer result = arr[head];
-//        head = (head + 1 == arr.length ? 0 : head + 1);
-//        size--;
-//        return result;
-//    }
-//    
-//    public Integer peek() {
-//        if(size == 0) {
-//            return null;
-//        }
-//        return arr[head];
-//    }
-//    
-//    public boolean isEmpty() {
-//        return size == 0;
-//    }
-//    
-//    public int size() {
-//        return size;
-//    }
 public class Queue2 {
     
     //using circular array to implement a queue
-    private int head;
-    private int tail;
-    private int size;
-    private int[] array;
+    private static int head;
+    private static int tail;
+    private static int size;
+    private static int[] array;
     
     public Queue2(int capacity) {
         array = new int[capacity];
@@ -98,45 +50,45 @@ public class Queue2 {
         return size;
     }
     
-    public Queue2(int cap) {
-        arr = new int[cap+1];
-        head = 0;
-        tail = 1;
-    }
-    
-    public boolean offer(int value) {
-        if(head == tail) {
-            //full
-            return false;
-        }
-        arr[tail] = value;
-        tail = ((tail+1) % arr.length);
-        return true;
-    }
-    
-    public Integer poll() {
-        if(head == tail-1) {
-            return null;
-        }
-        Integer result = arr[head+1];
-        head = ((head + 1) % arr.length);
-        return result;
-    }
-    
-    public Integer peek() {
-        if(head == tail-1) {
-            return null;
-        }
-        return arr[head];
-    }
-    
-    public boolean isEmpty() {
-        return size == 0;
-    }
-    
-    public int size() {
-        return size;
-    }
+//    public Queue2(int cap) {
+//        arr = new int[cap+1];
+//        head = 0;
+//        tail = 1;
+//    }
+//    
+//    public boolean offer(int value) {
+//        if(head == tail) {
+//            //full
+//            return false;
+//        }
+//        arr[tail] = value;
+//        tail = ((tail+1) % arr.length);
+//        return true;
+//    }
+//    
+//    public Integer poll() {
+//        if(head == tail-1) {
+//            return null;
+//        }
+//        Integer result = arr[head+1];
+//        head = ((head + 1) % arr.length);
+//        return result;
+//    }
+//    
+//    public Integer peek() {
+//        if(head == tail-1) {
+//            return null;
+//        }
+//        return arr[head];
+//    }
+//    
+//    public boolean isEmpty() {
+//        return size == 0;
+//    }
+//    
+//    public int size() {
+//        return size;
+//    }
     
     public static void main(String[] args) {
         Queue2 q2 = new Queue2(4);
@@ -151,14 +103,14 @@ public class Queue2 {
         //}
         if(tail > head) {
             for(int i = head; i <= tail; i++) {
-                System.out.println(arr[i]);
+                System.out.println(array[i]);
             }
         } else {
-            for(int i = head+1; i < arr.length; i++) {
-                System.out.println(arr[i]);
+            for(int i = head+1; i < array.length; i++) {
+                System.out.println(array[i]);
             }
             for(int i = 0; i < tail; i++) {
-                System.out.println(arr[i]);
+                System.out.println(array[i]);
             }
         }
         
