@@ -1,11 +1,62 @@
 package practice.practice6;
 
+
+//using array (circular array)
+//public class Queue2 {  
+//    private static int[] arr;
+//    private int size;
+//    private static int head;
+//    private static int tail;
+    
+//    public Queue2(int cap) {
+//        arr = new int[cap];
+//        size = 0;
+//        head = 0;
+//        tail = 0;
+//    }
+//    
+//    public boolean offer(int value) {
+//        if(size == arr.length) {
+//            return false;
+//        }
+//        arr[tail] = value;
+//        tail = (tail+1 == arr.length ? 0 : tail + 1);
+//        size++;
+//        return true;
+//    }
+//    
+//    public Integer poll() {
+//        if(size == 0) {
+//            return null;
+//        }
+//        Integer result = arr[head];
+//        head = (head + 1 == arr.length ? 0 : head + 1);
+//        size--;
+//        return result;
+//    }
+//    
+//    public Integer peek() {
+//        if(size == 0) {
+//            return null;
+//        }
+//        return arr[head];
+//    }
+//    
+//    public boolean isEmpty() {
+//        return size == 0;
+//    }
+//    
+//    public int size() {
+//        return size;
+//    }
 public class Queue2 {
     
     //using circular array to implement a queue
     private static int head;
     private static int tail;
+
     private static int size;
+
     private static int[] array;
     
     public Queue2(int capacity) {
@@ -55,7 +106,7 @@ public class Queue2 {
 //        head = 0;
 //        tail = 1;
 //    }
-//    
+
 //    public boolean offer(int value) {
 //        if(head == tail) {
 //            //full

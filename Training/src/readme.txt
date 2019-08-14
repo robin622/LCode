@@ -28,6 +28,9 @@ How to answer a question ?
 
 Speak out loud about your thinking process. Be careful about the communication practices. 
 
+Round Down 
+向下取整
+
 面试关键： 
 要说出思维方式 ！！！
 

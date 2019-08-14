@@ -22,6 +22,15 @@ A: assumption
 R: result
 T: test
 
+Dijkstra algorithm
+Lazy implementation way ???
+
+properties of dijkstra algorithm
+1, one node can be expanded once and only once. 
+2, one node can be generated more than once. 
+3, all the cost of the nodes that are expanded are monotonically non-decreasing. 
+4, time complexity for a graph with n node and the connectivity of the node is constant O(nlogn). 
+5, when a node is popped out for expansion, its value is fixed which is equal to the shortest distance from the start node.
 
 
 
