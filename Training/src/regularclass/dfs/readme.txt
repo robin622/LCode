@@ -27,6 +27,3 @@ Back-tracking is a behavior of DFS.
 2, how many different states should we try to put on each level ? (how many branches ?)
 
 DFS after based case, return is needed. 
-
-
->>>>>>> Stashed changes
