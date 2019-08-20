@@ -1,5 +1,5 @@
 
-package regularclass.stackQueue;
+package regularclass.firstsemester.stackQueue;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package regularclass.string2;
+package regularclass.firstsemester.string2;
 
 public class WordsReversal {
     

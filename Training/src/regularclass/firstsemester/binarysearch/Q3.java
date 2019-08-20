@@ -1,4 +1,4 @@
-package regularclass.binarysearch;
+package regularclass.firstsemester.binarysearch;
 
 public class Q3 {
     

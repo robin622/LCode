@@ -1,4 +1,4 @@
-package regularclass.recursion1;
+package regularclass.firstsemester.recursion1;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package regularclass.recursion1;
+package regularclass.firstsemester.recursion1;
 
 public class RainBowSort2 {
     // TC: O(n), SC:O(1)

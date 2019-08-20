@@ -1,4 +1,4 @@
-package regularclass.binarysearch;
+package regularclass.firstsemester.binarysearch;
 
 public class Q8 {
     //A[] = {2,5,7,10,13}
