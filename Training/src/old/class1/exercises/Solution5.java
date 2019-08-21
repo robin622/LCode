@@ -1,6 +1,6 @@
 package old.class1.exercises;
 
-import regularclass.firstsemester.recursion1.QuckSort;
+import firstsemester.classes.recursion1.QuckSort;
 
 public class Solution5 {
     public int sqrt(int x) {
