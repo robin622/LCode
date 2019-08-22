@@ -38,6 +38,14 @@ CSAPP
 https://www.aosabook.org/en/distsys.html
 
 
+Sum of Arithmetic sequence: 
+S = (a1 + an) * n / 2;
+
+Sum of Geometric sequence:  
+S = (a1 * (1-q^n)) / (1-q);
+
+XOR ：exclusive OR
+
 
 
 
