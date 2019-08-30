@@ -1,0 +1,49 @@
+low is :1
+high is :0
+after first, n is : 254
+after second, n is : 2147483902
+low is :1
+high is :0
+after first, n is : 2147483900
+after second, n is : 3221225724
+low is :1
+high is :0
+after first, n is : 3221225720
+after second, n is : 3758096632
+low is :1
+high is :0
+after first, n is : 3758096624
+after second, n is : 4026532080
+low is :1
+high is :0
+after first, n is : 4026532064
+after second, n is : 4160749792
+low is :1
+high is :0
+after first, n is : 4160749760
+after second, n is : 4227858624
+low is :1
+high is :0
+after first, n is : 4227858560
+after second, n is : 4261412992
+low is :1
+high is :0
+after first, n is : 4261412864
+after second, n is : 4278190080
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+low is :0
+high is :0
+4278190080

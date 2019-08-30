@@ -3,6 +3,7 @@ package firstsemester.classes.bitoperation;
 public class ToHex {
     
     public String toHex(int num) {
+        //consider 0 case !!!
         StringBuilder result = new StringBuilder("0x");
         for(int i = 7; i >=0; i--) {
             int curr = (num >> (4 * i)) & 15;

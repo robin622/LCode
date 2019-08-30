@@ -1,0 +1,24 @@
+what is Recursion ?
+1, it calls itself
+2, change big problem into smaller problem
+3, do not record intermediate result
+
+what is DP ?
+1, it fills a table
+2, fills the table by certain order
+  2.1 fills it with order
+  2.2 use the results which have been calculated
+无后效性: 不篡改历史, 不预测未来 (read history and write current)
+3, core ? 
+recursion 从大到小, DP 从小到大, 记录中间结果
+
+DP, Recursion are implementation of divide and conquer. 
+
+1, base case
+2, induction rule
+
+one dimension (linear data)
+weight of each smallest element are identical or similar: Linear scan and look back to the previous elements. 
+
+Java BigInteger study
+

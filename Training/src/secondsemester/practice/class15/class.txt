@@ -1,0 +1,49 @@
+Most significant bit (the leftmost bit)
+
+There is no unsigned type in Java
+
+postive's complement + 1 is negative
+
+反码 : ones' complement
+补码 : two's complement
+
+对于正数, 反码和补码不变.
+对于负数, 反码就是整数取反,补码就是反码加一. 
+
+4 digits: 
+              min         max        count
+ori          -7(1111)    7(0111)      15
+ones' com    -7(1000)    7(0111)      15 
+two's com    -8(1000)    7(0111)      16
+
+>> arithmetical shift
+>>> logical shift
+
+>> 约等于 /2, 但是得考虑奇偶性!!!
+for example, -7 >> 2 is -4
+如果负数 >> 会有问题!!!
+
+tenary operator 
+三目运算符
+
+why we need wrapper class ?
+primitive can not express "does not exist"
+wrapper classes has extra overhead
+
+autoboxing
+unboxing
+
+if Integer ><= primitive, value will be compared. 
+
++, -, *, /, >, <, >=, <= only applied to primitive type
+
+no autoboxing or unboxing between int[] and Integer[]. 
+
+when substring, is offset and count fields changed or new a string ?
+before java 7u6, it is reused. 
+after java 7u6, it is newly created. 
+
+
+
+
+
