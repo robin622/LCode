@@ -1,0 +1,11 @@
+Interface, Abstract Class, Access Modifier, Exceptions
+
+    SuperClass
+       / \
+class A   class B
+      \   /
+      class C
+if multiple inheritance is supported, which method will be called in C is unknown.
+But, since interface has no implementation, then no problem. 
+
+ 

@@ -1,0 +1,45 @@
+OOD 1 
+
+in interview
+1, come up with different solutions
+2, compare pros and cons for different solution
+3, process is more important than result
+
+no silver bullet
+
+why learning OOD ?
+1, Practical problems --> Model --> Code
+2, Better understanding of OOP
+3, how to write good code ?
+
+Reading material:
+1, Effective Java
+2, Java source code (ArrayList, LinkedList, HashMap, PriorityQueue...)
+
+what is good code ? what is good design ?
+1, 满足需求!
+2, easy to use
+   a, clear, elegant, easy to understand, no ambiguity
+   b, Prevent users from making mistakes
+   
+3, easy to evolve !!!
+
+Motivation of Object Oriented Programming
+1) structured programming : code + data
+2) only expose limited interfaces
+3) good for extension 
+4) modular testing
+
+
+
+Inherit a class: is-a
+Implement an interface: has an ability
+
+Polymorphism and overriding
+
+ 
+
+
+
+
+
