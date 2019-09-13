@@ -1,0 +1,51 @@
+class 18 Nested Class, Iterators, Generics, Enum
+
+1, It is a way of logically grouping classes that are only used in one place. 
+2, It increases encapsulation
+3, It can lead to more readable and maintainable code. 
+
+prefer static nested class to inner class
+
+because inner class has the reference to outer class which may lead to memory issue. 
+
+Only one top-level class can be declared public in a java file. 
+
+Top level class can only be "public/default". 
+
+Top level class or nested class
+1, A nested class has access to private members of the outer class but helper class does not. 
+2, You may want your helper class to help multiple classes in the same package. 
+3, A static nested class can be declared public but not for helper class. 
+4, By design: Nesting a class sends a clear message of intent: the nested class. A Helper is only relevant and usable
+to support A class. It has no meaning on its own. 
+
+when to use nested, individual and non-top class.  
+if class needs to access top level class's members and methods, use nested class. 
+if class needs to be accessed by out of package, use individual class. 
+if class only be accessed by top class and no need to access top class's members, define in same class file. 
+
+Iterator
+next()
+hasNext()
+
+ListIterator
+Only for List
+
+Generics
+during compile time, check type error. 
+
+Enum
+
+有一个class, 有多个field, 存放各种score, 比如有math, english, physics等, 然后要设计的api的input是一个list of属于这个class的object, 
+还有一个input is一个string, 这个string可能是math, english或physics, 然后api要实现的是根据input string的这个field找出前十个最大的返回,
+怎么样才可以一遍priority queue代码就能实现,而不是同样priority queue代码写三遍.
+
+
+
+
+
+
+
+
+
+

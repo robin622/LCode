@@ -1,0 +1,24 @@
+Class 19 Java Exception
+
+                                      Throwable
+                                 /               \
+                             Exception            Error
+                             /     \              OutOfMemoryError
+                   IOException  RuntimeException  StackOverFlowError
+          InterruptedException  IndexOutOfBoundException
+              ParseException    NullPointerException
+         NoSuchMethodException  ArithmeticException
+                                IllegalArgumentException
+                                
+Unchecked are the exceptions that are not checked at compiled time. (Under Error, and Runtime Exception)
+Checked: are the exceptions that are checked at compile time.
+
+IINA = index/illegal/null/arith
+
+Java 7: 
+multiple catch
+
+analysis time complexity
+
+寻找循环不变量!!!
+

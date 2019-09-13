@@ -1,0 +1,18 @@
+Class OOD 2 (parking lot)
+
+1, core functionality
+2, 我在什么样的应用场景下去细化核心功能 (use case)
+
+How to make it fixed ?
+API
+
+Design problem when discussing
+Considering XXX scenior/use case, I will apply ....
+
+if it is final, we do not need to worry about thread safe issue. 
+
+
+
+
+
+
