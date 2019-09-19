@@ -1,0 +1,9 @@
+
+
+1, Disk likes sequential access.
+2, Memory can be randomly accessed. 
+
+
+ 
+
+

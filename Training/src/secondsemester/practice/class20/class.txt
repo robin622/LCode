@@ -11,7 +11,10 @@ Considering XXX scenior/use case, I will apply ....
 
 if it is final, we do not need to worry about thread safe issue. 
 
+EnumMap(Set) usage
 
+
+JAVA IO
 
 
 

@@ -1,0 +1,21 @@
+Class Generic
+
+1, compile time checking
+2, avoid duplication
+
+Generic Method
+Generic Class
+
+E : Element
+T/S/R : Type
+K: Key
+V: Value
+
+why can not ?
+
+E e = new E();
+
+E's type is uncertain. 
+
+泛型数组不建议使用!!!
+
