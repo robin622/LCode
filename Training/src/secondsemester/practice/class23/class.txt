@@ -1,0 +1,34 @@
+class 21: C++ vs Java (vs. Python), Garbage collection
+
+why Java ?
+
+
+
+CPP --> Compile (windows compiler) --> 1
+   \
+    \
+  \   Compile (linux compiler) --> 2
+   \   
+    \  
+     Compile (apple compiler) --> 3
+      
+
+compiling execution multi-platform
+interpret execution user friendly
+
+young generation scan - minor GC
+old generation scan - major GC
+Permanent generation (class, method, string intern pool) - full GC
+
+From Java 8, permanent generation is moved out of Heap. 
+
+How to know which one is a garbage ?
+
+1, Local variable on Stack is not garbage. They are GC roots.
+2, each thead is also a GC root. 
+3, static variable is GC root. 
+4, JNI reference are GC roots. 
+
+
+
+ 
