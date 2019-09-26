@@ -1,0 +1,13 @@
+Strength 1
+
+1, two pointers moving in the same direction
+the sequence will not get changed. 
+
+2, two pointers moving in opposite direction
+the sequence will be changed. 
+
+General ideas to solve k-something
+1, iterative (1 LCA 2) ==> 12' + 3 ==> 13' + 4 ==> .... 
+2, binary reduction (1, 2) (3, 4) (5,6)
+3, K nodes all together
+
