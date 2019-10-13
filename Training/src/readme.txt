@@ -109,4 +109,14 @@ Lesson 13 is important
 2, iteration implementation of PreOrderTraversal/InOrderTraversal/PostOrderTraversal
 
 Operand / Operator 
+
+三遍理论
+第一遍：首先，如果写不出来，把老师答案看一遍，理解后，不看答案，默写老师答案，然后对比，然后小声顾念一边，
+巩固复习提高。
+第二遍：recite答案后， 如果卡住了，看一下答案，最后，大声英语描述并录入。 （大声清晰说出，一定高于内容本身！！！）
+第三遍（N）：不看答案，直接写，每一行代码能够解释物理意义。
+
+母题要掌握的非常非常熟练！！！
+
+
  
