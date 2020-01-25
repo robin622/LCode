@@ -11,6 +11,8 @@ How to answer a question ?
    a. sorted ? ascending/descending
    (if input is an array, think about if the array is sorted, ascending or descending, and duplicate elements)
    (if input is an matrix, think about matrix is null, matrix.length = 0, matrix[0].lenght = 0)
+   b. duplicate ?
+   c. propritize time complexity or space complexity ?
 2, Examples
 
 3, Solution
